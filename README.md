@@ -2,7 +2,9 @@
 
 Gizli gizli means sneaky sneaky in Turkish. Thanks to [twitch](https://www.youtube.com/watch?v=42b6JGSbaAo&t=258s) for being a good naming inspiration :D 
 
-Hides shellcode inside PE icons using steganography and creates a PE that executes the hidden shellcode. All written in Python. 
+Hides shellcode inside PE icons using steganography and creates a PE that executes the hidden shellcode. 
+
+All written in Python. 
 
 *** This project is highly experimental, might require you to do manual modifications in the code. Only works on windows ***
 
