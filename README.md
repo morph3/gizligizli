@@ -35,12 +35,11 @@ Top left pixel holds the shellcode length. For example, if the shellcode length 
 
 Every byte in the shellcode is embedded into shellcode length many pixels.  They are embedded into R values. This is possible as each channel can have values between 0x00-0xff.
 
-Virustotal results,
+Virustotal results, ( Microsoft too wasn't detecting it at first but somehow it made it to their db I guess :D )
 
 ![Virustotal](images/virustotal.png)
 
 # Demo
-
 
 [![IMAGE_ALT](https://img.youtube.com/vi/TnX_WaDD57A/0.jpg)](https://www.youtube.com/watch?v=TnX_WaDD57A)
 
