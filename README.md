@@ -33,7 +33,7 @@ Original Icon              |  Shellcode Embedded Icon
 
 Top left pixel holds the shellcode length. For example, if the shellcode length is 493, top left pixel holds the RGB value (255,238,0). 
 
-Shellcode length many pixels is used and shellcode is embedded into R values. This is possible as each channel can have values between 0x00-0xff.
+Every byte in the shellcode is embedded into shellcode length many pixels.  They are embedded into R values. This is possible as each channel can have values between 0x00-0xff.
 
 Virustotal results,
 
