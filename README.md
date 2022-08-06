@@ -2,11 +2,11 @@
 
 Gizli gizli means sneaky sneaky in Turkish. Thanks to [twitch](https://www.youtube.com/watch?v=42b6JGSbaAo&t=258s) for being a good naming inspiration :D 
 
-Hides shellcode inside PE icons using steganography and creates a PE that executes the hidden shellcode. 
+Gizligizli hides shellcode inside PE icons using steganography and creates a PE that executes the hidden shellcode. 
 
 All written in Python. 
 
-*** This project is highly experimental, might require you to do manual modifications in the code. Only works on windows ***
+*** This project is highly experimental, might require you to do some modifications in the code. Works on windows only ***
 
 # Introduction
 
@@ -15,7 +15,7 @@ When you run `gizligizli.py`,
 - Given shellcode is embedded into an icon (Can be a custom icon)
 - A PE is generated using pyinstaller with malicious icon
 
-When you run the generated exe,
+When you run `gizligizli.exe`(generated exe),
 
 - Program finds the icon and unhides the shellcode from it
 - Executes the shellcode
@@ -35,7 +35,7 @@ Top left pixel holds the shellcode length. For example, if the shellcode length 
 
 Every byte in the shellcode is embedded into shellcode length many pixels.  They are embedded into R values. This is possible as each channel can have values between 0x00-0xff.
 
-Virustotal results, ( Microsoft too wasn't detecting it at first but somehow it made it to their db I guess :D )
+Virustotal results, ( Microsoft too wasn't detecting it at first but somehow it made it to their db :D )
 
 ![Virustotal](images/virustotal.png)
 
