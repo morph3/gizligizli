@@ -1,0 +1,5 @@
+PIL
+argparse
+PyInstaller
+lief
+ctypes
