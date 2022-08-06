@@ -1,6 +1,6 @@
 # Gizligizli
 
-Gizli gizli translates into sneaky sneaky in Turkish. Thank you [twitch](https://www.youtube.com/watch?v=42b6JGSbaAo&t=258s) for being a good naming inspiration :D 
+Gizli gizli means sneaky sneaky in Turkish. Thanks to [twitch](https://www.youtube.com/watch?v=42b6JGSbaAo&t=258s) for being a good naming inspiration :D 
 
 Hides shellcode inside PE icons using steganography. 
 
