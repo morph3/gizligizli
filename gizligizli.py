@@ -229,8 +229,8 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
     parser.add_argument("-sc", "--shellcode", dest="sc_path", default="shellcode.bin", help="shellcode.bin location")
-    parser.add_argument("-i", "--icon", dest="icon_path", default="default.ico", help="Custom icon location, default is gizligizli.ico")
-    parser.add_argument("-v", "--verbose", dest="verbose", default=False, action='store_true', help="Custom icon location, default is gizligizli.ico")
+    parser.add_argument("-i", "--icon", dest="icon_path", default="default.ico", help="Custom icon location, default is default.ico")
+    parser.add_argument("-v", "--verbose", dest="verbose", default=False, action='store_true', help="verbosity")
 
     args = parser.parse_args()
 
